@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <inistd.h>
 /**
  * main - A c program that prints a line
  * Return: 1 (Success)
