@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - entry point
- * return: always 0 (success)
+ * main - Entry
+ * Return: Alwyas 0
  */
 int main(void)
 {
