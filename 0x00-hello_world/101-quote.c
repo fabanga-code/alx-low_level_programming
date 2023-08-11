@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <inistd.h>
 /**
- * main - Entry
- * Return: 1
+ * main - A c program that prints a line
+ * Return: 1 (Success)
  */
 int main(void)
 {
-	write(1, "and that piece of art is useful\" - dora korpar, 2015-10-19\n,59);
+	fput("and that piece of art is useful\" - dora korpar, 2015-10-19\n", stdout);
 	return (1);
 }
