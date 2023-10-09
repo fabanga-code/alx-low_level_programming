@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- *  * main - The entry point
- *   *
- *    * Description: Prints the size of various types to std output.
- *     * Return: Always 0 (Success)
- *      */
+ * main - The entry point
+ * Description: Prints the size of various types to std output.
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	printf("Size of a char: %ld byte(s)\n", sizeof(char));
