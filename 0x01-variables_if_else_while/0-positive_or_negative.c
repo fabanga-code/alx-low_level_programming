@@ -4,6 +4,8 @@
 
 /**
  * main - Entry point
+ * Description: prints random numbers and say
+ * if it's positive, negaive or zero.
  * Return: Always 0 (success)
  */
 
