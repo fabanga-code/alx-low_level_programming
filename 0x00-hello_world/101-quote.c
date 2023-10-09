@@ -1,10 +1,16 @@
-#include <stdio.h>
+#include <unistd.h>
+
 /**
- * main - A c program that prints a line
- * Return: 1 (Success)
+ * main - The main entry point
+ * Description: prints to std output without using
+ * any of the printf or puts familiy
+ * Return:Always 1 (Error)
  */
 int main(void)
 {
-	fput("and that piece of art is useful\" - dora korpar, 2015-10-19\n", stdout);
+	const char msg[] = "and that piece of art is useful\" - \
+			    Dora Korpar, 2015-10-19\n";
+	write(STDERR_FILENO, msg, sizeof(msg) - 1);
+
 	return (1);
 }
