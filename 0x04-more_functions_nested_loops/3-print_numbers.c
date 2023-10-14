@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * prints_numbers - functions checks for a digit (0 through 9).
  *
@@ -13,5 +14,5 @@ void print_numbers(void)
 	{
 		_putchar(c);
 	}
-	_putchar('\n');
+		_putchar('\n');
 }
