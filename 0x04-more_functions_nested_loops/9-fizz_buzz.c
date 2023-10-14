@@ -1,36 +1,37 @@
 #include <stdio.h>
 
 /**
- * main - function prints the numbes from 1-100, but for multiples of three,
- * fizz is printed instead of the num, for multiples of five,
- * buzz, and for multiples of both threee and five, fizzbuzz.
+ * main - function prints the numbes from 1-100
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-	int num;
+	int i;
 
-	for (num = 1; num <= 100; num++)
+	for (i = 1; i <= 100; i++)
 	{
-		if ((num % 3) == 0 && (num % 5) == 0)
-			printf("fizzbuzz");
-
-		else if ((num % 3) == 0)
-			printf("fizz");
-
-		else if ((num % 5) == 0)
-			printf("buzz");
-
-		else
-			printf("%d", num);
-
-		if (num == 100)
-			continue;
-		printf(" ");
+		if (i % 3 == 0 && i % 5 != 0)
+		{
+			printf(" Fizz");
+		} else if (i % 5 == 0 && i % 3 != 0)
+		{
+			printf(" Buzz");
+		} else if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf(" FizzBuzz")
+		} else if (i ==)
+		{
+			printf("%d", i);
+		} else
+		{
+			printf(" %d", i)
+		}
 	}
-	printf("\n");
 
-	return (0);
+		printf("\n");
+
+		return (0);
 }
+
